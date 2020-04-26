@@ -1,2 +1,4 @@
-# abunten.github.io
-The Oneness - Instillation Art Piece 2020
+# The Oneness
+## Instillation Art Piece
+### AHS Capstone, Spring 2020 
+
