@@ -1,0 +1,100 @@
+body {
+  font-family: Roboto;
+}
+
+.navbar-brand > img {
+  max-height: 3rem;
+  margin-top: -0.3rem;
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.nav-item {
+  // border: solid white 1px;
+  // margin: 0 1rem;
+  // padding: 0 0.5rem;
+  color: white;
+  // text-align: center;
+  // width: 8rem;
+  // border-radius: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link:link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(206, 183, 235);
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+  color: white;
+}
+
+/*.navbar-dark .navbar-nav .nav-link:visited {
+  color: white;
+}*/
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+button:focus {
+  outline: none;
+}
+
+#introduction {
+  padding-top: 5rem;
+  margin-top: 0;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section {
+  padding-top: 5rem;
+  margin-top: -5rem;
+}
+
+.section > * {
+  padding-left: 1.5rem;
+  padding-right: 1.5em;
+}
+
+.section > h1 {
+  background-color: rgba(206, 183, 235, 0.5);
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 300;
+}
+
+.section > h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.section > h2 > a, a:link, a:focus, a:active {
+  color: #212529;
+}
+
+.section > h2 > a:hover {
+  color: rgb(206, 183, 235);
+  text-decoration: none;
+}
+
+.section > img {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.quote {
+  width: 80%;
+  margin: auto;
+}
+
+#artist > div > * {
+  width: 50%;
+}
