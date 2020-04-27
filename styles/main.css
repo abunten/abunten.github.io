@@ -41,7 +41,7 @@ body {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-button:focus {
+:focus, button:focus {
   outline: none;
 }
 
