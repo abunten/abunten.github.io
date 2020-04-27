@@ -11,31 +11,17 @@ body {
   background-color: black;
 }
 
-.nav-item {
-  // border: solid white 1px;
-  // margin: 0 1rem;
-  // padding: 0 0.5rem;
-  color: white;
-  // text-align: center;
-  // width: 8rem;
-  // border-radius: 1px;
+.navbar-dark .navbar-nav .nav-link.active {
+  color: rgb(206, 183, 235);
 }
 
-.navbar-dark .navbar-nav .nav-link:link {
+.navbar-dark .navbar-nav .nav-link {
   color: white;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: rgb(206, 183, 235);
 }
-
-.navbar-dark .navbar-nav .nav-link:active {
-  color: white;
-}
-
-/*.navbar-dark .navbar-nav .nav-link:visited {
-  color: white;
-}*/
 
 .navbar-dark .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.5);
